@@ -10,9 +10,11 @@ namespace StudentAdminPortalAPI.Repositories
         {
             this.context = context;
         }
-        public List<Student> GetStudents()
+        public async Task<List<Student>> GetStudents()
         {
-            return context.Student.Include(nameof(Gender)).Include(nameof(Address)).ToList();
+            return await context.Student.Include(nameof(Gender))
+                                  .Include(nameof(Address))
+                                  .ToListAsync();
         }
     }
 }

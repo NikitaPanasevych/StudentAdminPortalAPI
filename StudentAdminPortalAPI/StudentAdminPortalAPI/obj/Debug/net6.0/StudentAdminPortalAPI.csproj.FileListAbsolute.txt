@@ -80,3 +80,5 @@ C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAP
 C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\StudentAdminPortalAPI.pdb
 C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\StudentAdminPortalAPI.genruntimeconfig.cache
 C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\ref\StudentAdminPortalAPI.dll
+C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Nikita Panasevych\Desktop\C#\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
