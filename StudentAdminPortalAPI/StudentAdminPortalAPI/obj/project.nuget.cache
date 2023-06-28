@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NTdVbrXh2dXBcvErC9oyqb7DvZ2IggQ5NCAD7X3XwIs2qAtSBldEM8cigzGs8Pq+5dESLB4UFtw827SuE0PViw==",
+  "dgSpecHash": "L0zDVMYHlyOl+fQHpyoFmIxUxnCLmSHrgJ8MdBa1WiLdrFrsTRCyGv4wFHEONOUXxZAHfsGTNbnDitgoFEdTBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
+  "projectFilePath": "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

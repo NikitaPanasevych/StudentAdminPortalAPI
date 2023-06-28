@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj": {}
+    "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj": {
+    "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
         "projectName": "StudentAdminPortalAPI",
-        "projectPath": "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
+        "projectPath": "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
         "packagesPath": "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita Panasevych\\Desktop\\C#\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\obj\\",
+        "outputPath": "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita Panasevych\\AppData\\Roaming\\NuGet\\NuGet.Config",
