@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentAdminPortalAPI.DomainModels;
 using StudentAdminPortalAPI.Repositories;
-using System.Collections.Generic;
+
 
 namespace StudentAdminPortalAPI.Controllers
 {
@@ -19,7 +19,7 @@ namespace StudentAdminPortalAPI.Controllers
         }
 
         [HttpGet]
-        [Route("[controller]")]
+        [Route("Students")]
         public async Task<IActionResult> GetAllStudents()
         {
             var students = await studentRepository.GetStudents();
@@ -28,7 +28,7 @@ namespace StudentAdminPortalAPI.Controllers
         }
 
         [HttpGet]
-        [Route("[controller]/{studentId:guid}")]
+        [Route("Students/{studentId:guid}")]
         public async Task<IActionResult> GetStudent([FromRoute] Guid studentId)
         {
             var student = await studentRepository.GetStudent(studentId);
