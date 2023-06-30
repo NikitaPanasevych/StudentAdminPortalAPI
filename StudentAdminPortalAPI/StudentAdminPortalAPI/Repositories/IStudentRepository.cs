@@ -7,5 +7,11 @@ namespace StudentAdminPortalAPI.Repositories
         Task<List<Student>> GetStudents();
 
         Task<Student> GetStudent(Guid studentId);
+
+        Task<List<Gender>> GetAllGEnders();
+
+        Task<bool> Exists(Guid studentId);
+
+        Task<Student> UpdateStudent(Guid studentId, Student request);
     }
 }
