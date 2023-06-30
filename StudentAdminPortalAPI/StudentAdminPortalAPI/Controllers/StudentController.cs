@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using StudentAdminPortalAPI.DomainModels;
 using StudentAdminPortalAPI.Repositories;
 using DataModels = StudentAdminPortalAPI.Models;
+using Microsoft.AspNetCore.Http;
 
 
 namespace StudentAdminPortalAPI.Controllers
@@ -12,11 +13,18 @@ namespace StudentAdminPortalAPI.Controllers
     {
         private readonly IStudentRepository studentRepository;
         private readonly IMapper mapper;
+        private readonly IImageRepository imageRepository;
 
-        public StudentController(IStudentRepository studentRepository, IMapper mapper)
+        public StudentController(
+            IStudentRepository studentRepository, 
+            IMapper mapper, 
+            IImageRepository imageRepository
+           )
+            
         {
             this.studentRepository = studentRepository;
             this.mapper = mapper;
+            this.imageRepository = imageRepository;
         }
 
         [HttpGet]
@@ -78,6 +86,24 @@ namespace StudentAdminPortalAPI.Controllers
                 mapper.Map<Student>(student));
         }
 
+        [HttpPost]
+        [Route("Students/{studentId:guid}/upload-image")]
+        public async Task<IActionResult> UploadImage([FromRoute] Guid studentId, IFormFile profileImage)
+        {
+            // Check if student exists
+            if (await studentRepository.Exists(studentId))
+            { 
+                var fileName = Guid.NewGuid() + Path.GetExtension(profileImage.FileName);
 
+                var fileImagePath = await imageRepository.Upload(profileImage, fileName);
+
+                if(await studentRepository.UpdateProfileImage(studentId, fileImagePath))
+                {
+                    return Ok(fileImagePath);
+                }
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error occured while updating image");
+            }
+            return NotFound();
+        }
     }
 }
