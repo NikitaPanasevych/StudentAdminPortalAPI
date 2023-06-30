@@ -4,6 +4,7 @@ using StudentAdminPortalAPI.Repositories;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using System.IO;
+using FluentValidation.AspNetCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,10 @@ builder.Services.AddCors((options) =>
     });
 });
 builder.Services.AddControllers();
+
+builder.Services.AddFluentValidation(
+        fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
+
 builder.Services.AddDbContext<StudentAdminContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("StudentAdminPortalDb")
     ));

@@ -166,3 +166,6 @@ C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPort
 C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\StudentAdminPortalAPI.pdb
 C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\StudentAdminPortalAPI.genruntimeconfig.cache
 C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\obj\Debug\net6.0\ref\StudentAdminPortalAPI.dll
+C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Nikita Panasevych\Desktop\Csharp\StudentAdminPortalAPI\StudentAdminPortalAPI\StudentAdminPortalAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

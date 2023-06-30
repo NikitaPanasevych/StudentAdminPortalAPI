@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L0zDVMYHlyOl+fQHpyoFmIxUxnCLmSHrgJ8MdBa1WiLdrFrsTRCyGv4wFHEONOUXxZAHfsGTNbnDitgoFEdTBQ==",
+  "dgSpecHash": "os/MHnisYTLpK0CPjMPXd24g2+pauKMiRxzxCKLjDcJX2Y9ImbyLtvejZmr/DxEuHSekiKeroEKTfBQyxriGjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nikita Panasevych\\Desktop\\Csharp\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI\\StudentAdminPortalAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Nikita Panasevych\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
