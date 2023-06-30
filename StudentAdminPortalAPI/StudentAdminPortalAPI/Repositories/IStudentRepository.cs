@@ -13,5 +13,7 @@ namespace StudentAdminPortalAPI.Repositories
         Task<bool> Exists(Guid studentId);
 
         Task<Student> UpdateStudent(Guid studentId, Student request);
+
+        Task<Student> DeleteStudent(Guid studentId);
     }
 }
